@@ -1,0 +1,191 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>iPenguine</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+<script>
+    $(window).scroll(function()
+    {
+        if($(this).scrollTop()>100) $('.taskbar').fadeIn();
+        else $('.taskbar').fadeOut();
+    }
+    );  
+</script>
+
+</head>
+
+
+
+<body>
+    <header>
+         <nav id="firstnav">
+            <ol class="menu">
+                 <li><a href="#nagłowekonas"><img src="img/logo.png" alt="logo"></a></li>
+                <li><a href="#"><i class="demo-icon icon-home"></i> Strona główna</a></li>
+                <li><a href="#komp"><i class="demo-icon icon-desktop"></i>Komputery</a></li>
+                <li><a href="#akces"><i class="demo-icon icon-headphones"></i>Akcesoria</a></li>
+                <li><a href="#support"><i class="demo-icon icon-chat"></i>Wsparcie</a></li>
+                <li><a href="#"><i class="demo-icon icon-search"></i>Szukaj</a></li>
+                <li><a href="#"><i class="demo-icon icon-bag"></i>Koszyk</a>
+                    <ul>
+                        <span style="cursor: auto; color: rgb(209, 209, 209); text-align: center;font-size: 15px; margin-bottom: 10px;margin-right: 75px;">Twój koszyk jest pusty</span>
+                    </ul></li>
+                <li><i class="demo-icon icon-user"></i>Konto 
+                    <ul>
+                        <br>
+                        <span style="cursor: auto; color: rgb(209, 209, 209); margin-left: 10px;font-size: 20px;">Twoje konto</span>
+                        <li><a href="#">Zamówienia</a></li>
+                        <li><a href="#">Konto</a></li>
+                        <li><a href="#">Ustawienia</a></li>
+                        <li><a href="login.html">Zaloguj</a></li>
+                    </ul></li> 
+            </ol>
+        </nav>
+    </header>
+    <div id="container">
+        
+        <main>
+             <header>
+                <h1 id="h11">Sklep, w którym kupisz <br> najlepsze produkty.</h1>
+                <h1 id="logo"><a href="#nagłowekonas">i<img src="img/logo.png" alt="logo">Penguine</a></h1>
+                <div style="clear: both;"></div>
+            </header>
+           
+            <article>
+                <section>
+                <header>
+                    <h2>Najnowsze produkty!</h2>
+                </header>
+                <div id="container1">
+                    <div class="itemwhite"><p>macbook air z czipem m1</p>
+                        <h1>Najlepszy w swojej cenie. <br>  </h1> <p>Już od 6999 zł</p>
+                        <img src="img/applemc1.jpg" alt="macbook">
+                    </div>
+                    <div class="itemwhite"><p>nokia 3310</p>
+                        <h1>Ponadczasowa. <br>  </h1> <p>Już od 11569 zł</p>
+                        <img src="img/nokia3310.jpg" alt="nokia">
+                    </div>
+                    <div class="itemblack"><p>jbl live 500bt</p>
+                        <h1>Słyszysz więcej. <br>  </h1> <p>Już od 399 zł</p>
+                        <img src="img/słuchawki.jpg" alt="jbl">
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </section>
+                <section>
+                    <header>
+                        <h1 id="komp">Komputery</h1>
+                    </header>
+                    <div class="container2">
+                        <div class="itembuybackground"><img src="img/huaweitlo2.jpg" alt="tło"></div>
+                            <div class="itembuyb"><p>huawei matebook x pro</p>
+                                <h1>Elegancja bliżej ciebie. <br>  </h1> <p>Już od 6999 zł</p>
+                                <img src="img/huaweimatebook.png" alt="huawei">
+                            <div style="clear: both;"></div>
+                     </div>
+                    </div>
+                </section>
+                    <section>
+                        <header>
+                            <h1 id="akces">Akcesoria</h1>
+                        </header>
+
+                        <div class="container2">
+                            <div class="itembuybackground"><img src="img/tłosluchbaseus.jpg" alt="tło"></div>
+                             <div class="itembuyb"><p>Baseus Encok True</p>
+                                    <h1>Mniejsze, a wygodniejsze. <br>  </h1> <p>Już od 245 zł</p>
+                                <img src="img/słuchbaseus.png" alt="Baseus">
+                              <div style="clear: both;"></div>
+                         </div>
+                       </div>
+                      <div style="margin-top: 25px;"></div>
+                      <div class="container2">
+                         <div class="itembuybackground"><img src="img/tlogalaxyz.jpg" alt="tło"></div>
+                              <div class="itembuyb"><p>samsung galaxy z flip</p>
+                                    <h1>Przywróćmy wspomnienia  <br> w nowoczesnej formie. <br>  </h1> <p>Już od 6999 zł</p>
+                                    <img class="samsung" src="img/samsung.png" alt="macbook">
+                             <div style="clear: both;"></div>
+                         </div>
+                     </div>
+                    </section>
+                    <section>
+                        <header>
+                            <h1 id="nagłowekonas">O marce</h1>
+                        </header>
+                        <div id="container3">  
+                            <div id="aboutus">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla non dolor sed bibendum. Vivamus ultrices metus ut pharetra eleifend. Suspendisse mattis leo non consequat aliquet. Maecenas nec ex eros. Vestibulum id malesuada tortor. Maecenas ut mauris eget leo porttitor posuere eu ac est. Proin nec aliquam enim, et congue lectus. Duis felis nisl, feugiat quis tincidunt vel, rutrum lacinia magna. Curabitur pharetra id dui eu mollis. Cras varius, lacus eu dapibus hendrerit, nibh ligula pellentesque sapien, et pharetra lorem orci non lectus. Maecenas vitae lacus lacus. Phasellus tincidunt malesuada arcu id lobortis. Fusce vehicula enim et ex commodo, id blandit ante aliquam. Aliquam ornare vitae erat eget efficitur. Proin porta nisl eget justo molestie, eu ullamcorper est pretium.
+                            </div>
+                            <h1 id="logobottom">i<img src="img/logo.png" alt="logo">Penguine</h1>
+                                <div style="clear: both;"></div>
+                        </div>
+                    </section>
+        </article>
+                 <div  class="taskbar">
+                     <ol class="menu">
+                        <li><a href="#"><i id="i1" class="demo-icon icon-home"></i></a></li>
+                        <li><a href="#komp"><i id="i1" class="demo-icon icon-desktop"></i></a></li>
+                        <li><a href="#akces"><i id="i1" class="demo-icon icon-headphones"></i></a></li>
+                        <li><a href="#support"><i id="i1" class="demo-icon icon-chat"></i></a></li>
+                        <li><a href="#"><i id="i1" class="demo-icon icon-search"></i></a></li>
+                        <li><a href="#"><i id="i1" class="demo-icon icon-bag"></i></a>
+                            <ul>
+                                <span style="cursor: auto; color: rgb(209, 209, 209); text-align: center;font-size: 15px; margin-bottom: 10px;margin-right: 75px;">Twój koszyk jest pusty</span>
+                            </ul></li>
+                        <li><i id="i1" class="demo-icon icon-user"></i>
+                            <ul> <br>
+                                    <span style="cursor: auto;color: rgb(209, 209, 209); margin-left: 10px;font-size: 20px;">Twoje konto</span>
+                                    <li><a href="#">Zamówienia</a></li>
+                                    <li><a href="#">Konto</a></li>
+                                    <li><a href="#">Ustawienia</a></li>
+                                    <li><a href="login.html">Zaloguj</a></li>
+                            </ul></li>
+                    </ol>
+                </div> 
+        </main>
+        <br>
+        </div>
+        <footer>
+            <div id="container4">
+                <div class="box4">
+                    <h4>Wsparcie</h4>
+                    <ul id="support">
+                        <li>Zwrot i reklamacja</li>
+                        <li>Pomoc</li>
+                        <li>Płatność</li>
+                        <li>Wysyłka</li>
+                    </ul>
+                </div>
+                <div class="box4">
+                    <h4>Informacje</h4>
+                    <ul class="contact">
+                        <li>Polska</li>
+                        <li>00-000 Warszawa</li>
+                        <li>Adresy</li>
+                        <li>Główne placówki</li>
+                    </ul>
+                </div>
+                <div class="box4">
+                    <h4>Kontakt</h4>
+                    <ul class="contact">
+                        <li><i class="demo-icon icon-github-circled-alt2">muclrx</i></li>
+                        <li><i class="demo-icon icon-facebook">Maciej Talarczyk</i></li>
+                        <li><i class="demo-icon icon-twitter">muclrx</i></li>
+                        <li><i class="demo-icon icon-instagram-filled">22.marzec</i></li>
+                    </ul>
+                    
+                </div>
+                <div id="copyright">Copyright &copy; iPenguine Inc. Wszelkie prawa zastrzeżone</div>
+            </div>
+        </footer>
+        
+    
+    
+</body>
+</html>
